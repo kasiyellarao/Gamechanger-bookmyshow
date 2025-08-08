@@ -1,0 +1,527 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(95, 89, 69);
+}
+
+.box {
+  height: 700px;
+  width: 100%;
+  background-color: #d6ccc2;
+  border: 0px solid black;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.box1 {
+  height: 250px;
+  width: 200px;
+  background-color: rgb(246, 239, 239);
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 10px;
+
+
+
+}
+
+.img {
+  height: 130px;
+  width: 100%;
+  border: 0px solid rgb(4, 4, 4);
+  background-color: rgb(244, 237, 178);
+}
+
+p {
+  text-align: center;
+  font-weight: bolder;
+
+}
+
+h6 {
+  text-align: center;
+}
+
+button {
+  height: 37px;
+  width: 100%;
+  background-color: rgb(14, 15, 15);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-variant: small-caps;
+  color: rgb(236, 229, 229);
+}
+
+.navibar {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.519);
+  position: fixed;
+  z-index: 100;
+ 
+
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 16px;
+  font-weight: 700;
+  font-variant: small-caps;
+  cursor: pointer;
+  color: white;
+
+}
+
+.home {
+  height: 700px;
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.vid {
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+
+
+}
+
+.mem {
+  height: 120px;
+  width: 300px;
+  
+  position: absolute;
+  margin: -124px;
+  margin-left: 40%;
+  text-align: center;
+  font-weight: 600;
+  font-variant: small-caps;
+  color: #fff;
+
+}
+
+.btn {
+  height: 30px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: #001233;
+  padding-top: 4px;
+  margin-top: 20px;
+  margin-left: 70px;
+  color: white;
+
+}
+.posters {
+  height: 700px;
+  width: 100%;
+  background-color: #756f6f;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div {
+  position: relative;
+  
+  
+}
+.div2{
+  position: relative;
+  width: 200px; 
+  height: 300px;
+  padding: 10px;
+}
+
+.post, .back{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: opacity 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.back {
+  opacity: 0; 
+}
+
+div:hover .post {
+  opacity: 0; 
+}
+
+div:hover .back {
+  opacity: 1; 
+}
+
+
+.Songes {
+  height: 700px;
+  width: 100%;
+  background-color: #756f6f;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 60px;
+  flex-wrap: wrap;
+
+}
+
+.song-img {
+  height: 170px;
+  width: 100%;
+  border: 0px solid rgb(4, 4, 4);
+  background-color: rgb(244, 237, 178);
+
+
+}
+
+.song-box {
+  height: 250px;
+  width: 250px;
+  background-color: rgb(214, 9, 9);
+  border: 0px solid rgb(0, 0, 0);
+  border-radius: 10px;
+
+
+}
+
+.audio {
+  height: 40px;
+  width: 250px;
+
+}
+
+.default {
+  width: 250px;
+  background-color: white;
+  margin-top: -4px;
+}
+
+.fanclub {
+  height: 500px;
+  width: 100%;
+  background-color: #948f8f;
+  padding-top: 75px;
+  margin-top: -20px;
+}
+.form{
+  height: 350px;
+  width: 90%;
+  /* background-color: aqua; */
+  margin-left: 80px;
+  text-align: center;
+ 
+  
+}
+input{
+  height: 40px;
+  width: 50%;
+  margin-top: 10px;
+  
+}
+.stars{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.stars input{
+  display: none;
+}
+.stars label{
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+.stars label::before{
+  content: '★';
+}
+.stars input:checked ~ label{
+  color: yellow;
+}
+.stars:hover label:hover,
+.stars:hover label:hover ~ label{
+  color: red;
+}
+
+.joinclub{
+  height: 30px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: #001233;
+  margin-left: 600px;
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+}
+.fanclub-div{
+ align-items: center;
+ font-size: large;
+ font-weight: 600;
+ font-variant: small-caps;
+ 
+}
+
+
+.foot {
+  height: 200px;
+  width: 100%;
+  background-color: #313131c5;
+  margin-top: -20px;
+}
+
+.icons {
+  height: 150px;
+  width: 300px;
+  margin-left: 650px;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-size: larger;
+ 
+
+}
+
+.social {
+ margin-left: 50px;
+ padding-top: 30px;
+ padding-left: 50px;
+}
+h5{
+  margin-top: 10px;
+  margin-left: 50px;
+  padding-left: 40px;
+  font-size: small;
+}
+.payment{
+  margin-left: 50px;
+  padding-top: 10px;
+  padding-left: 50px;
+ }
+ 
+
+ /* image slider */
+
+ .imageslider{
+  height: 650px;
+  width: 100%;
+  background-color: #001233;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .slider{
+  height: 100%;
+  width: 100%;
+  /* background-color: aqua; */
+  overflow: hidden;
+  
+ }
+ .cursor{
+  height: 100%;
+  width: 800%;
+  background-color: yellowgreen;
+  display: flex;
+  /* margin-left: -400%; */
+ }
+ .picture{
+  height: 100%px;
+  width: 20%;
+  background-color: brown;
+ }
+ .pic{
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+ }
+ .popup{
+  height: 300px;
+  width: 500px;
+  background-color: #fff;
+  display: none;
+   /* position: fixed;
+  z-index: 200;  */
+  /* transform: translate(90%, -500%); */
+  margin-left: 550px;
+  margin-top: -250%;
+ }
+ #cancle{
+  height: 30px;
+  width: 20px;
+  background-color: rgb(255, 116, 47);
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+ }
+ 
+.imgpop{
+  height: 300px;
+  width: 100%;
+  position: relative;
+  object-fit: cover;
+}
+
+
+/* media screen size */
+
+
+/* Responsive Design for Mobile and Tablet */
+
+/* Mobile (<= 600px) */
+@media screen and (max-width: 600px) {
+  .box, .Songes, .posters {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .box1, .song-box, .div2 {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .img, .song-img, .audio, .popup, .pic {
+    width: 100%;
+    height: auto;
+  }
+
+  .mem {
+    width: 90%;
+    margin: 10px auto;
+    font-size: small;
+    text-align: center;
+  }
+
+  .btn, .joinclub {
+    width: 80%;
+    margin: 15px auto;
+    font-size: small;
+  }
+
+  .form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .icons {
+    width: auto;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .navibar ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 0;
+  }
+
+  .picture {
+    width: 100%;
+  }
+
+  .cursor {
+    flex-wrap: wrap;
+    width: auto;
+  }
+
+  .popup {
+    width: 90%;
+    margin: auto;
+    margin-top: -250%;
+  }
+}
+
+/* Tablets (601px to 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .box1, .song-box, .div2 {
+    width: 45%;
+    margin: 10px auto;
+  }
+
+  .btn, .joinclub {
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  input {
+    width: 90%;
+  }
+
+  .popup {
+    width: 80%;
+    margin: auto;
+  }
+
+  .picture {
+    width: 33.33%;
+  }
+
+  .cursor {
+    width: auto;
+    flex-wrap: wrap;
+  }
+
+  .mem {
+    width: 80%;
+    margin: auto;
+    font-size: medium;
+  }
+}
+/* Desktops (1025px and above) */
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 200;
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .navibar ul {
+    display: none;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 150;
+  }
+
+  .navibar ul.show {
+    display: flex;
+  }
+}
+
+
